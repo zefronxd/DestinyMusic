@@ -1,0 +1,2 @@
+- [uvloop and PyTgCalls startup](uvloop-pytgcalls.md) — PyTgCalls sync wrappers need a current event loop during import, and startup must keep using that same loop.
+- [PCM producer cleanup](pcm-producer-cleanup.md) — the consumer must cancel its producer when playback ends or fails, before closing the decoder.
